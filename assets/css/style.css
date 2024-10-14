@@ -48,6 +48,11 @@ list-style-type: none;
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+/*Navbar style with dropdown toggle*/
+nav {
+    position: absolute;
+    background-color: #ffffff;
+}
 /*Main content*/
 main {
 background-color: rgb(102, 190, 205);
