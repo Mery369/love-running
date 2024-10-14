@@ -113,3 +113,10 @@ background-color: rgb(175, 186, 238);
         margin-top:79px;
     }
 }
+/*larger devices(laptops and desktops, 992px & up)*/
+@media screen and (min-width:992px ) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+        
+    }
+}
