@@ -19,8 +19,10 @@ body{
 }
 /*Header*/
 header{
-    background-color: rgb(160, 221, 218);
-
+    background-color: rgb(221, 160, 211);
+}
+h1 {
+    font-family: 'Oswald', sans-serif;
 }
 /*Main content*/
 main {
