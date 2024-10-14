@@ -82,6 +82,7 @@ margin-top: 47px;
 /*footer*/
 footer{
 background-color: rgb(175, 186, 238);
+display:inline-block;
 }
 /*Media query:tablets and larger (768px and up)*/
 @media screen and (min-width: 768px ) {
