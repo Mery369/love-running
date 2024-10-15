@@ -311,7 +311,7 @@ flex-direction: column;
     }
     .join-button:hover {
         border-color: #fafafa;
-        color: #454b1b;
+        color: #ffffff;
     }
 }
 /*larger devices(laptops and desktops, 992px & up)*/
