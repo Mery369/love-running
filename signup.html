@@ -44,15 +44,28 @@
       <section id="signup">
         <form action="https://formdump.codeinstitute.net" id="signup-form" method="post">
           <h2><i class="fa-solid fa-heart-pulse"></i>LET'S GET YOU SIGNED UP!</h2>
-        <label for="">First Name</label>
-          <input type="text" required class="text-input"><br>
-          <label for="">Last Name</label>
-        <input type="text" required class="text-input"><br>
-        <label for="">Email Address</label>
-        <input type="email" required class="text-input"> <br>
-        <button type="radio"></button>
-        <button type="radio"></button>
-        <button type="radio"></button>
+        <label for="first-name">First Name</label>
+          <input type="text" required class="text-input" name="first_name" id="first-name"><br>
+          <label for="last-name">Last Name</label>
+        <input type="text" required class="text-input" id="last-name" name="last_name"><br>
+        <label for="email">Email Address</label>
+        <input type="email" required class="text-input" id="email-address" name="email_address"> <br>
+        <div class="radio-buttons">
+          <div>
+            <label for="road">Road</label>
+          <input type="radio" value="road" name="running_preference" id="road" required checked>
+          </div>
+        <div>
+          <label for="trail">Trail</label>
+          <input type="radio" value="trail" name="running_preference" id="trail" required>
+        </div>
+        <div>
+          <label for="both">Both</label>
+          <input type="radio" value="both" name="running_preference" id="both" required>
+        </div>
+        </div>
+        <button type="submit" class="join-button">Let's Run!</button>
+        
         </form>
       </section>
     </main>
